@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Main Content Area */
+main {
+    padding: 20px;
+}
+
+.candy-info {
+    margin-bottom: 30px;
+}
+
+.candy-info h2 {
+    font-size: 1.5em;
+}
+
+.candy-info p {
+    margin-top: 10px;
+}
+
+.candy-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.candy-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.3);
+}
+
+.company-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ff8533;
+}
